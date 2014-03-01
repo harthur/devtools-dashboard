@@ -18,7 +18,12 @@ var tools = {
   'Tilt':               'DEVTOOLS_TILT_OPENED_PER_USER_FLAG',
   'Profiler':           'DEVTOOLS_JSPROFILER_OPENED_PER_USER_FLAG',
   'Paint Flashing':     'DEVTOOLS_PAINTFLASHING_OPENED_PER_USER_FLAG',
-  'Scratchpad':         'DEVTOOLS_SCRATCHPAD_OPENED_PER_USER_FLAG'
+  'Scratchpad':         'DEVTOOLS_SCRATCHPAD_OPENED_PER_USER_FLAG',
+  'Command Line':       'DEVTOOLS_DEVELOPERTOOLBAR_OPENED_PER_USER_FLAG',
+  'Options':            'DEVTOOLS_OPTIONS_OPENED_PER_USER_FLAG',
+  'Layout View':        'DEVTOOLS_LAYOUTVIEW_OPENED_PER_USER_FLAG',
+  'Fonts':              'DEVTOOLS_FONTINSPECTOR_OPENED_PER_USER_FLAG',
+  'Computed View':      'DEVTOOLS_COMPUTEDVIEW_OPENED_PER_USER_FLAG'
 };
 
 function fetchChannel(targetVersions, channel, finish) {
